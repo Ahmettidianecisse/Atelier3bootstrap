@@ -1,38 +1,139 @@
 body {
     overflow-x: hidden;
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
 }
-.container-fluid{
+.mwaka{
+    height: 35px; 
+    margin-top: 10px; 
+    width: 150px;
+}
+
+
+/* .container-fluid{
     @media screen and (min-width: 600px) and (max-width: 800px) {
         background-color: rgba(255, 0, 0, 0.219);
         display: flex;
         flex-direction: column;
         height: 150px;
     }  
-    }
-    h2{
-        @media screen and (min-width: 300px) and (max-width: 650px){
+    } */
+    @media screen and (min-width: 300px) and (max-width: 650px){
+        h2{
             display: none;
         }
-        
-    }
-    .father div {
-        @media screen and (min-width: 300px) and (max-width: 650px){
-                        
+        .dex{
+            position: relative;
+            top: -100px;
         }
+        .rekk{
+            position: relative;
+            top: -200px;
+        }
+    
     }
    
-
-       
+        
     
+       @media screen and (min-width: 600px) and (max-width: 800px){
+        .container-fluid{
+            display: flex;
+            flex-direction: column;
+            height: 150px;
+
+        }
+       
+        .mwaka{
+            width:250px;
+            margin-top: 10px;
+            margin-left: 0px;  
+            padding-left:25px; 
+            padding-right: 25px;
+
+            }
+          
+            body{
+                background-color: rgba(255, 187, 0, 0.219);
+                overflow-x: hidden;
+                margin: 0;
+                padding: 0; 
+            }
+            /* .dex{
+                position: relative;
+                top: 200px;
+            } */
+     
+            .lastimg{
+                display: none;
+            }   .dex{
+                position: relative;
+                top: -100px;
+            }
+            .rekk{
+                margin-top: 1000px;
+                position: relative;
+                top: -200px;
+            }
+       }
+       @media screen and (min-width: 1000px) and (max-width: 1600px){
+        .bomb{
+            /* background-color: skyblue; */
+           /* margin-bottom: 200px; */
+           position: relative;
+           bottom: 100px;
+        }
+        .rekk{
+            position: relative;
+            top: -100px;
+        
+        
+      
+      
+       }
+    }
    
     /* .container-fluid{
         position: fixed;
     } */
 
-.container-fluid:hover{
+.dosantos:hover{
 
     background-color: black;
+    height: 58px;
 }
 svg{
     color: rgb(255, 187, 0)    ;
+}
+.bomb{
+    margin-top: 100px;
+}
+.bomb p {
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 100px;
+}
+.bomb h1{
+    margin-left: 100px;
+}
+
+.bomb h1 {
+    @media screen and (min-width: 300px) and (max-width: 650px){   
+              margin: auto; 
+    }
+}
+.bomb p {
+    @media screen and (min-width: 300px) and (max-width: 650px){   
+              margin: auto; 
+    }
+}
+.dex{
+    margin-bottom:100px;
+    /* position: relative;
+    top: -100px; */
+    
+}
+.rekk img{
+width: 150px;
+height: 70px;
 }
